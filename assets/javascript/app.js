@@ -5,3 +5,15 @@ var articleNumbers = ;
 
 // Ajax function to access API
 $.ajax
+
+
+
+$("#searchBtn").click(function(){
+
+});
+
+
+$("#clearBtn").click(function(){
+
+});
+
