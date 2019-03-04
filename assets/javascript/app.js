@@ -8,9 +8,7 @@ $.ajax
 
 
 
-$("#searchBtn").click(createRecord(){
-
-});
+$("#searchBtn").click(createRecord());
 
 
 $("#clearBtn").click(function(){
