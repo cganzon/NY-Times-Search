@@ -5,6 +5,7 @@ var articleMinYear
 var articleMaxYear
 
 // Ajax function to access API
+<<<<<<< HEAD
 $.ajax({
     url: queryUrl,
     method: "GET"
@@ -12,3 +13,18 @@ $.ajax({
     console.log(response);
 
 });
+=======
+$.ajax
+
+
+
+$("#searchBtn").click(function(){
+
+});
+
+
+$("#clearBtn").click(function(){
+
+});
+
+>>>>>>> 351f04e0973007e2b7edb6d3736ce9e13bda81ea

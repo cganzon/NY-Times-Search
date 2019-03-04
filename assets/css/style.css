@@ -1,0 +1,17 @@
+.header{
+height: 100px !important;
+line-height: 100px !important;
+padding: 0px !important;
+margin: 0px !important;
+}
+
+.header h1 {
+    background-color: navy;
+    color: white;
+    line-height: 100px;
+    margin-bottom: 25px !important;
+}
+
+.card {
+    margin: 10px 0px !important;
+}

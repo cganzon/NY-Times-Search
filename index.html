@@ -5,15 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <title>nyt search</title>
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center header">
+                <h1>New York Times Search</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Search Parameters
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="searchInput">Search Term</label>
+                                <input type="email" class="form-control" id="searchInput1" aria-describedby="emailHelp"
+                                    placeholder="type search term here">
+                            </div>
+                            <div class="form-group">
+                                <label for="numberOfRecords">Number of Records to Retrieve</label>
+                                <input type="email" class="form-control" id="numberOfRecords1"
+                                    aria-describedby="emailHelp" placeholder="type amount of records here">
+                            </div>
+                            <div class="form-group">
+                                <label for="startYear">Start Year (optional)</label>
+                                <input type="email" class="form-control" id="startYear1" aria-describedby="emailHelp"
+                                    placeholder="type start year here">
+                            </div>
+                            <div class="form-group">
+                                <label for="endYear">End Year (optional)</label>
+                                <input type="email" class="form-control" id="endYear1" aria-describedby="emailHelp"
+                                    placeholder="type end year here">
+                            </div>
+                            <button type="submit" id="searchBtn" class="btn btn-dark">Search</button>
+                            <button type="submit" id="clearBtn" class="btn btn-dark">Clear Results</button>
+                        </form>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Top Results
+                    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
-</body>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ </body>
 
 </html>
