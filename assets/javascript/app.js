@@ -8,7 +8,7 @@ $.ajax
 
 
 
-$("#searchBtn").click(function(){
+$("#searchBtn").click(createRecord(){
 
 });
 
@@ -16,4 +16,22 @@ $("#searchBtn").click(function(){
 $("#clearBtn").click(function(){
 
 });
+
+$("#resultPage").text()
+
+function createRecord(){
+    var colRes = $("<div>").addClass("col-sm-12");
+    var cardRes = $("<div>").addClass("card");
+    var cardBRes = $("<div>").addClass("card-body");
+    var pTitle = $("<p>").addClass("card-text");
+    var pAuthor = $("<p>").addClass("card-text");
+    var pRegion = $("<p>").addClass("card-text");
+    var pDate = $("<p>").addClass("card-text");
+    var articleURL = $("<a>").attr(...);
+    
+    $(cardBRes).append(pTitle, pAuthor, pRegion, pDate, articleURL);
+    $(cardRes).append(cardBRes);
+    $(colRes).append(cardRes);
+}
+
 
